@@ -161,8 +161,8 @@ export const Skill_data = [
   ];
 
 
-  export const imageUrl = 'https://shubhubelge.github.io/portfolio'
-  // export const imageUrl = ''
+  // export const imageUrl = 'https://shubhubelge.github.io/portfolio'
+  export const imageUrl = ''
   
   
   
