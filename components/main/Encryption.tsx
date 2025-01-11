@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
-
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 import { imageUrl } from "@/constants";
-
 const Encryption = () => {
   return (
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
@@ -59,7 +57,7 @@ const Encryption = () => {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="/encryption.webm/"
+          src={imageUrl+"/encryption.webm/"}
         />
       </div>
     </div>
