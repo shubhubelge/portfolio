@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import { imageUrl } from "@/constants";
 interface Props {
   src: string;
   title: string;
@@ -11,7 +11,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
-        src={src}
+        src={imageUrl+src}
         alt={title}
         width={1000}
         height={1000}

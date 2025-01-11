@@ -8,6 +8,7 @@ import {
   slideInFromTop,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+import { imageUrl } from "@/constants";
 import Image from "next/image";
 
 const HeroContent = () => {
@@ -24,7 +25,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Frontend Developer
           </h1>
         </motion.div>
 
@@ -46,14 +47,23 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          {/* I&apos;m a Full Stack Software Engineer with experience in Website,
+          Mobile, and Software development. Check out my projects and skills. */}
+          Skilled Frontend Developer with 6+ years of experience in designing responsive, accessible, and scalable
+web applications using Vue.js, Angular, and modern frameworks. Procient in performance optimization,
+implementing modular code, and delivering exceptional user experiences across web and hybrid mobile
+applications. Strong background in Agile methodologies, cross-functional collaboration, and leading
+development efforts.
+
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href={imageUrl+"/shubham-resume.pdf"} 
+          target="_blank"
+          download
         >
-          Learn More!
+          Download Resume
         </motion.a>
       </div>
 
@@ -62,7 +72,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="https://shubhubelge.github.io/portfolio/mainIconsdark.svg"
+          src={imageUrl+"/mainIconsdark.svg"}
           alt="work icons"
           height={650}
           width={650}

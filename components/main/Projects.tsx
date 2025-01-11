@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
-
+import { imageUrl } from "@/constants";
 const Projects = () => {
   return (
     <div
@@ -10,21 +10,31 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex-col md:flex-row gap-10 px-10 grid grid-cols-3">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src={imageUrl+"/englishoven.jpg"}
+          title="HTML, SCSS, JavaScript, WordPress and Bootstrap"
+          description="The English Oven website appears to use HTML, CSS, JavaScript, and likely a CMS like WordPress, along with Bootstrap for responsiveness and Google Analytics for tracking."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src={imageUrl+"/tata.png"}
+          title="HTML, CSS, and JavaScript"
+          description="The HabiNest website uses HTML, CSS, and JavaScript, likely incorporating responsive frameworks and analytics tools for user engagement and performance tracking. It may also employ CMS or backend integration for content management."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src={imageUrl+"/ag.png"}
+          title="HTML, CSS, JavaScript, WordPress and Bootstrap"
+          description="The AgraVishwa website likely utilizes modern web technologies such as HTML, CSS, JavaScript, and responsive frameworks, potentially coupled with CMS platforms and analytics tools for performance tracking and content management."
+        />
+        <ProjectCard
+          src={imageUrl+"/zakasapp.png"}
+          title="Framwork7, Vue2, HTML and SCSS"
+          description="The AgraVishwa website likely utilizes modern web technologies such as HTML, CSS, JavaScript, and responsive frameworks, potentially coupled with CMS platforms and analytics tools for performance tracking and content management."
+        />
+        <ProjectCard
+          src={imageUrl+"/ag.png"}
+          title="HTML, CSS, JavaScript, WordPress and Bootstrap"
+          description="Zakas App: My City, My App! ZakasApp is your own city's app! Create online Dukan & start selling pro."
         />
       </div>
     </div>

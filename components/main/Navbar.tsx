@@ -1,7 +1,7 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
-
+import { imageUrl } from "@/constants";
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
@@ -11,15 +11,15 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="https://shubhubelge.github.io/portfolio/NavLogo.png"
+            src={imageUrl+"/logo-small.png"}
             alt="logo"
-            width={70}
-            height={70}
+            width={40}
+            height={40}
             className="cursor-pointer hover:animate-slowspin"
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Shubham Belge
           </span>
         </a>
 
@@ -39,13 +39,15 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
+            <a href={social.link} target="_blank" className="cursor-pointer">
+              <Image
+                src={imageUrl+social.src}
+                alt={social.name}
+                key={social.name}
+                width={24}
+                height={24}
+              />
+              </a>
           ))}
         </div>
       </div>

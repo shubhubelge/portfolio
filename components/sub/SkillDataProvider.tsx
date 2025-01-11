@@ -4,7 +4,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Image from 'next/image';
-
+import { imageUrl } from "@/constants";
 interface Props {
     src: string;
     width: number;
@@ -33,7 +33,7 @@ const SkillDataProvider = ({ src, width, height, index} : Props) => {
   transition={{delay: index * animationDelay}}
   >
     <Image
-src={src}
+src={imageUrl+src}
 width={width}
 height={height}
 alt='skill image'

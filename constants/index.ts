@@ -1,98 +1,169 @@
 export const Skill_data = [
     {
       skill_name: "Html 5",
-      Image: "https://shubhubelge.github.io/portfolio/html.png",
+      Image: "/html.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Css",
-      Image: "https://shubhubelge.github.io/portfolio/css.png",
+      Image: "/css.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Java Script",
-      Image: "https://shubhubelge.github.io/portfolio/js.png",
+      Image: "/js.png",
       width: 65,
       height: 65,
     },
     {
       skill_name: "Tailwind Css",
-      Image: "https://shubhubelge.github.io/portfolio/tailwind.png",
+      Image: "/tailwind.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "React",
-      Image: "https://shubhubelge.github.io/portfolio/react.png",
+      Image: "/react.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "https://shubhubelge.github.io/portfolio/redux.png",
+      skill_name: "Bootstrap",
+      Image: "/bootstrap.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "https://shubhubelge.github.io/portfolio/reactquery.png",
+      skill_name: "vue",
+      Image: "/vue.svg",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Type Script",
-      Image: "https://shubhubelge.github.io/portfolio/ts.png",
+      Image: "/ts.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Next js 13",
-      Image: "https://shubhubelge.github.io/portfolio/next.png",
+      Image: "/next.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Framer Motion",
-      Image: "https://shubhubelge.github.io/portfolio/framer.png",
+      skill_name: "framework7",
+      Image: "/framwork7.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Stripe Payment",
-      Image: "https://shubhubelge.github.io/portfolio/stripe.webp",
-      width: 80,
+      skill_name: "bulma",
+      Image: "/bulma.svg",
+      width: 60,
       height: 80,
     },
     {
       skill_name: "Node js",
-      Image: "https://shubhubelge.github.io/portfolio/node-js.png",
+      Image: "/node-js.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Mongo db",
-      Image: "https://shubhubelge.github.io/portfolio/mongodb.png",
+      Image: "/mongodb.png",
       width: 40,
       height: 40,
     },
-  
+    {
+      skill_name: "Material UI",
+      Image: "/mui.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Graphql",
+      Image: "/graphql.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Docker",
+      Image: "/docker.webp",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Figma",
+      Image: "/figma.png",
+      width: 50,
+      height: 50,
+    },
+    {
+      skill_name: "Quasar",
+      Image: "/quasar.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "SCSS",
+      Image: "/scss.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "JQuery",
+      Image: "/jquery.webp",
+      width: 80,
+      height: 80,
+    },    
+    {
+      skill_name: "Git",
+      Image: "/git.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Pinia",
+      Image: "/pinia.svg",
+      width: 60,
+      height: 60,
+    },
+    // {
+    //   skill_name: "Git",
+    //   Image: "/git.svg",
+    //   width: 80,
+    //   height: 80,
+    // },
+    // {
+    //   skill_name: "Git",
+    //   Image: "/git.svg",
+    //   width: 80,
+    //   height: 80,
+    // },
+    // {
+    //   skill_name: "Git",
+    //   Image: "/git.svg",
+    //   width: 80,
+    //   height: 80,
+    // },
+    
   ];
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "https://shubhubelge.github.io/portfolio/instagram.svg",
+      name: "Twitter",
+      src: "/x.svg",
+      link:"https://x.com/shubhambelge"
     },
     {
-      name: "Facebook",
-      src: "https://shubhubelge.github.io/portfolio/facebook.svg",
+      name: "LinkdedIn",
+      src: "/linkedin.svg",
+      link:"https://www.linkedin.com/in/shubham-belge/"
     },
-    {
-      name: "Instagram",
-      src: "https://shubhubelge.github.io/portfolio/discord.svg",
-    },
+    
   ];
   
   
@@ -100,61 +171,61 @@ export const Skill_data = [
   export const Frontend_skill = [
     {
       skill_name: "Html 5",
-      Image: "https://shubhubelge.github.io/portfolio/html.png",
+      Image: "/html.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Css",
-      Image: "https://shubhubelge.github.io/portfolio/css.png",
+      Image: "/css.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Java Script",
-      Image: "https://shubhubelge.github.io/portfolio/js.png",
+      Image: "/js.png",
       width: 65,
       height: 65,
     },
     {
       skill_name: "Tailwind Css",
-      Image: "https://shubhubelge.github.io/portfolio/tailwind.png",
+      Image: "/tailwind.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Material UI",
-      Image: "https://shubhubelge.github.io/portfolio/mui.png",
+      Image: "/mui.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "React",
-      Image: "https://shubhubelge.github.io/portfolio/react.png",
+      Image: "/react.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Redux",
-      Image: "https://shubhubelge.github.io/portfolio/redux.png",
+      Image: "/redux.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "React Query",
-      Image: "https://shubhubelge.github.io/portfolio/reactquery.png",
+      Image: "/reactquery.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Type Script",
-      Image: "https://shubhubelge.github.io/portfolio/ts.png",
+      Image: "/ts.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Next js 13",
-      Image: "https://shubhubelge.github.io/portfolio/next.png",
+      Image: "/next.png",
       width: 80,
       height: 80,
     },
@@ -163,49 +234,49 @@ export const Skill_data = [
   export const Backend_skill = [
     {
       skill_name: "Node js",
-      Image: "https://shubhubelge.github.io/portfolio/node-js.png",
+      Image: "/node-js.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Express js",
-      Image: "https://shubhubelge.github.io/portfolio/express.png",
+      Image: "/express.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Mongo db",
-      Image: "https://shubhubelge.github.io/portfolio/mongodb.png",
+      Image: "/mongodb.png",
       width: 40,
       height: 40,
     },
     {
       skill_name: "Fire base",
-      Image: "https://shubhubelge.github.io/portfolio/Firebase.png",
+      Image: "/Firebase.png",
       width: 55,
       height: 55,
     },
     {
       skill_name: "Postger SQL",
-      Image: "https://shubhubelge.github.io/portfolio/postger.png",
+      Image: "/postger.png",
       width: 70,
       height: 70,
     },
     {
       skill_name: "My SQL",
-      Image: "https://shubhubelge.github.io/portfolio/mysql.png",
+      Image: "/mysql.png",
       width: 70,
       height: 70,
     },
     {
       skill_name: "Prisma",
-      Image: "https://shubhubelge.github.io/portfolio/prisma.webp",
+      Image: "/prisma.webp",
       width: 70,
       height: 70,
     },
     {
       skill_name: "Graphql",
-      Image: "https://shubhubelge.github.io/portfolio/graphql.png",
+      Image: "/graphql.png",
       width: 80,
       height: 80,
     },
@@ -214,26 +285,26 @@ export const Skill_data = [
   export const Full_stack = [
     {
       skill_name: "React Native",
-      Image: "https://shubhubelge.github.io/portfolio/ReactNative .png",
+      Image: "/ReactNative .png",
       width: 70,
       height: 70,
     },
     {
       skill_name: "Tauri",
-      Image: "https://shubhubelge.github.io/portfolio/tauri.svg",
+      Image: "/tauri.svg",
       width: 70,
       height: 70,
     },
     {
       skill_name: "Docker",
-      Image: "https://shubhubelge.github.io/portfolio/docker.webp",
+      Image: "/docker.webp",
       width: 70,
       height: 70,
     },
   
     {
       skill_name: "Figma",
-      Image: "https://shubhubelge.github.io/portfolio/figma.png",
+      Image: "/figma.png",
       width: 50,
       height: 50,
     },
@@ -245,11 +316,14 @@ export const Skill_data = [
   export const Other_skill = [
     {
       skill_name: "Go",
-      Image: "https://shubhubelge.github.io/portfolio/go.png",
+      Image: "/go.png",
       width: 60,
       height: 60,
     },
   ];
+
+  export const imageUrl = 'https://shubhubelge.github.io/portfolio'
+  // export const imageUrl = ''
   
   
   
